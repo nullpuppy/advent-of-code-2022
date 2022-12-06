@@ -6,6 +6,7 @@ use day::day2 as d2;
 use day::day3 as d3;
 use day::day4 as d4;
 use day::day5 as d5;
+use day::day6 as d6;
 
 fn main() {
     println!("Advent of Code 2022!");
@@ -24,4 +25,7 @@ fn main() {
     println!("Day 5");
     d5::determine_final_stack_states();
     d5::determine_final_stack_states_9001();
+    println!("Day 6");
+    d6::task1();
+    d6::task2();
 }
